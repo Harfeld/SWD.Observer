@@ -44,5 +44,11 @@
     <Compile Include="Subject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Observer\Observer.csproj">
+      <Project>{9d3dece0-b675-468e-9f1e-03cf623e403a}</Project>
+      <Name>Observer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

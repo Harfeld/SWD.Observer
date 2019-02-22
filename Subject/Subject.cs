@@ -8,5 +8,11 @@ namespace Subject
 {
     public class Subject
     {
+        private List<Observer.Observer> _observers = new List<Observer.Observer>();
+
+        public void Attach(Observer.Observer toAdd)
+        {
+            _observers.Add(toAdd);
+        }
     }
 }
