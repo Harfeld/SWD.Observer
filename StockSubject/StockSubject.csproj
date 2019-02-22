@@ -44,5 +44,11 @@
     <Compile Include="StockSubject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockObserver\IStockObserver.csproj">
+      <Project>{e173a9ac-cb37-435a-a976-04b129b6fc97}</Project>
+      <Name>IStockObserver</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

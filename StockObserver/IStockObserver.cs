@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PortfolioObserver
+namespace IStockObserver
 {
-    public class PortfolioObserver
+    public class IStockObserver
     {
     }
 }

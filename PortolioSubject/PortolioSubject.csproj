@@ -44,5 +44,11 @@
     <Compile Include="PorfolioSubject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PortfolioObserver\IPortfolioObserver.csproj">
+      <Project>{13d75e03-4be1-4f62-83ab-c536b846d1f2}</Project>
+      <Name>IPortfolioObserver</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

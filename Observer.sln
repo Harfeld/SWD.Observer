@@ -13,13 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portfolio", "Portfolio\Port
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockSubject", "StockSubject\StockSubject.csproj", "{B1FB9E3A-18EE-4EC9-9FBD-F68C2913C155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockObserver", "StockObserver\StockObserver.csproj", "{E173A9AC-CB37-435A-A976-04B129B6FC97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStockObserver", "StockObserver\IStockObserver.csproj", "{E173A9AC-CB37-435A-A976-04B129B6FC97}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PorfolioDisplay", "PorfolioDisplay\PorfolioDisplay.csproj", "{F8983D3E-EF2F-44A5-9AF3-3BAEA16BF60F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortolioSubject", "PortolioSubject\PortolioSubject.csproj", "{2B48289A-6A3A-4C91-9EAA-F0452E46DD4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioObserver", "PortfolioObserver\PortfolioObserver.csproj", "{13D75E03-4BE1-4F62-83AB-C536B846D1F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPortfolioObserver", "PortfolioObserver\IPortfolioObserver.csproj", "{13D75E03-4BE1-4F62-83AB-C536B846D1F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
